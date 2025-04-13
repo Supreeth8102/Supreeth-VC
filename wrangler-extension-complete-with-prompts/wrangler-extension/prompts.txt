@@ -1,0 +1,27 @@
+# AI-Generated Prompts Log
+# This file records the prompts used to generate parts of the Wrangler extension project using AI tooling.
+
+## Grammar
+Prompt: "Generate ANTLR grammar lexer rules for byte size units like KB, MB and time duration like ms, s, m, h"
+
+## Parser Classes
+Prompt: "Create a Java class that parses strings like '1.5MB' into bytes"
+Prompt: "Create a Java class that parses time strings like '2h', '30m', '45s' into milliseconds"
+
+## Directive
+Prompt: "Write a Wrangler directive that aggregates total byte size and time duration from two columns"
+
+## Persistence
+Prompt: "How to store and retrieve state across rows in a Wrangler directive"
+
+## Unit Testing
+Prompt: "Write JUnit tests for parsing byte size strings like '1GB', '512KB', etc."
+Prompt: "Write JUnit tests for parsing time durations like '1h', '30s'"
+
+## Integration Testing
+Prompt: "Example usage of TestingRig in Wrangler for recipe execution"
+Prompt: "Write a test to verify the aggregate-stats directive outputs correct totals from rows"
+
+## Documentation
+Prompt: "Write README usage instructions for a Wrangler directive that parses byte and time units"
+
